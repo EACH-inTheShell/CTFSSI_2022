@@ -4,10 +4,10 @@ Repositório dos desafios realizados durante a Semana de Sistema de Informação
 
 #### Tópicos abordados
 
-- bin/rev - Interessados:
-- crypto - Interessados: azz
-- forense - Interessados: azz
-- OSINT - Interessados: uxie
-- redes - Interessados: Nominho Hacker
-- web - Interessados: Nominho Hacker
-- misc - Interessados:
+- bin/rev - Interessados: jadno, fukuda
+- crypto - Interessados: azz, Furquim
+- forense - Interessados: azz, jadno, nakata
+- OSINT - Interessados: uxie, nakata, Furquim
+- redes - Interessados: Nominho Hacker, nakata, jadno, fukuda, Furquim
+- web - Interessados: Nominho Hacker, jadno
+- misc - Interessados: lari, fukuda
