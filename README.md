@@ -28,3 +28,5 @@ Brainstorm, pode ser que não seja utilizado...
 - XSS
 - SSRF
 - LFI
+- Alguma possibilidade de RCE em algum tipo de programa distribuído (`distcc`, `barrier`)?
+- Servidor proxy (`squid` ou `ssh`) rodando na maquina sem precisar de credenciais e sem limitar IPs. Servidor interno (`FTP`, `HTTP` ou qqr outra coisa ae) com a flag
