@@ -4,29 +4,29 @@ Repositório dos desafios realizados durante a Semana de Sistema de Informação
 
 #### Tópicos abordados
 
-- bin/rev - Interessados: jadno, fukuda
-- crypto - Interessados: azz, Furquim
-- forense - Interessados: azz, jadno, nakata
-- OSINT - Interessados: uxie, nakata, Furquim
-- redes - Interessados: Nominho Hacker, nakata, jadno, fukuda, Furquim
-- web - Interessados: Nominho Hacker, jadno
-- misc - Interessados: lari, fukuda
+- bin/rev - Interessados: Jadno, Mayfly
+- crypto - Interessados: Azz, Furquim
+- forense - Interessados: Azz, Jadno, Nakata
+- OSINT - Interessados: Uxie, Nakata, Furquim
+- redes - Interessados: Nominho Hacker, Nakata, Jadno, Mayfly, Furquim
+- web - Interessados: Nominho Hacker, Jadno
+- misc - Interessados: Lari, Mayfly
 
 #### Ideias/temas soltos
 
 Brainstorm, pode ser que não seja utilizado...
 
 - Link de bibliotecas dinâmicas
-- Modificar/implementar programa (`scp`, ) para subversão de lógica
+- Modificar/implementar algum programa (tipo o `scp`) para subverter a lógica de algum programa externo
 - Escape de container
 - Core dump de programa com segredo em memória
 - Forense com memory dump de um computador
 - Analise de pacotes com Wireshark
 - Zip slip
 - Log4J
-- GDB com sessao remota aberta
+- GDB com sessão remota aberta
 - XSS
 - SSRF
 - LFI
 - Alguma possibilidade de RCE em algum tipo de programa distribuído (`distcc`, `barrier`)?
-- Servidor proxy (`squid` ou `ssh`) rodando na maquina sem precisar de credenciais e sem limitar IPs. Servidor interno (`FTP`, `HTTP` ou qqr outra coisa ae) com a flag
+- Desafios de exploração de binário (stack overrun, format string, heap overrun, integer overflow)
