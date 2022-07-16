@@ -1,87 +1,61 @@
+#include "map.hpp"
+#include "net.hpp"
+
 #include <arpa/inet.h>
 #include <errno.h>
-#include <fstream>
+#include <iomanip>
 #include <iostream>
 #include <memory.h>
 #include <sys/socket.h>
 #include <thread>
 #include <unistd.h>
-#include <vector>
 
-class Tile {
-	char tile_char;
-
- public:
-	Tile(char c) : tile_char(c)
-	{
-		// TODO: Store more information for every char
-	}
-
-	friend std::ostream& operator<<(std::ostream& out, const Tile& tile)
-	{
-		out << tile.tile_char;
-		return out;
-	}
-};
-
-class Map {
-	std::vector<std::vector<Tile>> map;
-
- public:
-	Map(const std::string& filename)
-	{
-		std::ifstream file(filename);
-
-		std::string line;
-		while (std::getline(file, line)) {
-			std::vector<Tile> row;
-			for (char c : line)
-				row.emplace_back(c);
-			map.push_back(row);
-		}
-
-		file.close();
-	}
-
-	friend std::ostream& operator<<(std::ostream& out, const Map& map)
-	{
-		for (auto& row : map.map) {
-			for (auto tile : row)
-				out << tile;
-			out << std::endl;
-		}
-		return out;
-	}
-};
+const std::string flag = "eits{flag}";
 
 struct Options {
-	int port = 47000;
-	int listen = 20;
-	std::string map_file = "./map.txt";
-
-	Options() = default;
-
-	Options(int argc, char* argv[]) {
-		// TODO: parse arguments
-	}
+	static constexpr int port = 47000;
+	static constexpr int listen = 20;
+	static constexpr std::string_view map_file = "./map.txt";
 };
-
-Options option;
 
 void handle_client(int sock)
 {
-	Map map(option.map_file);
+	Map map((std::string(Options::map_file)));
 
 	std::cout << "[INFO] Loaded map:\n" << map;
 
-	// TODO: Logic...
-	send(sock, "game", 4, 0);
+	net::send_map(sock, map);
+
+	auto [last_x, last_y] = map.get_spawn_pos();
+	net::send_pos(sock, last_x, last_y);
+
+	try {
+		while (true) {
+			auto [x, y] = net::recv_pos(sock);
+
+			Tile t = map.get_tile(x, y);
+
+			if (t == Tile::FLAG)
+				net::send_message(sock, flag);
+
+			else if (t == Tile::WALL) {
+				net::send_pos(sock, last_x, last_y);
+				continue;
+			}
+
+			last_x = x;
+			last_y = y;
+		}
+	}
+	catch (net::unexpected_tag_error e) {
+		std::cerr << "[ERROR] " << e << std::endl;
+	}
+
 	close(sock);
 }
 
-int main(int argc, char* argv[])
+int main()
 {
-	option = Options(argc, argv);
 	int sock = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
 
 	if (sock == -1) {
@@ -93,14 +67,14 @@ int main(int argc, char* argv[])
 	memset(&hint, 0, sizeof(hint));
 	hint.sin_family = AF_INET;
 	hint.sin_addr.s_addr = INADDR_ANY;
-	hint.sin_port = htons(option.port);
+	hint.sin_port = htons(Options::port);
 
 	if (bind(sock, reinterpret_cast<sockaddr*>(&hint), sizeof(hint)) == -1) {
 		std::cerr << "[ERROR] bind(): " << strerror(errno) << std::endl;
 		return errno;
 	}
 
-	listen(sock, option.listen);
+	listen(sock, Options::listen);
 
 	while (true) {
 		int client_sock = accept(sock, nullptr, nullptr);
