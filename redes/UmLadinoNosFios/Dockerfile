@@ -9,4 +9,5 @@ FROM ubuntu:latest
 EXPOSE 47000
 COPY --from=builder /tmp/build/server /server
 COPY --from=builder /tmp/map.txt /map.txt
+COPY --from=builder /tmp/flag.txt /flag.txt
 ENTRYPOINT /server

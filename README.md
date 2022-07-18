@@ -30,3 +30,13 @@ Brainstorm, pode ser que não seja utilizado...
 - LFI
 - Alguma possibilidade de RCE em algum tipo de programa distribuído (`distcc`, `barrier`)?
 - Desafios de exploração de binário (stack overrun, format string, heap overrun, integer overflow)
+
+#### Portas já utilizadas
+
+Evitem reutilizar portas ;)
+
+| Desafio                | Porta |
+| ------------------     | ----- |
+| Proxy Aberto           | 3128  |
+| Um Ladino nos Fios     | 47000 |
+| Calculadora Preguiçosa | 47002 |

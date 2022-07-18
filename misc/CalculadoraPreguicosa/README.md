@@ -11,3 +11,7 @@ Criar um programa que utilize um interpretador python (como um `eval("<user_inpu
 ## Resolução proposta
 
 Para explorar basta injetar comandos python para ler a flag.
+
+## Como rodar
+
+Suba o servidor com `make start`. Depois é só acessar o desafio pelo NetCat com `nc localhost 47002`
