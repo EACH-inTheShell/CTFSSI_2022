@@ -3,6 +3,7 @@
 
 #include <arpa/inet.h>
 #include <errno.h>
+#include <fstream>
 #include <iomanip>
 #include <iostream>
 #include <memory.h>
@@ -10,7 +11,7 @@
 #include <thread>
 #include <unistd.h>
 
-const std::string flag = "eits{flag}";
+static std::string flag;
 
 struct Options {
 	static constexpr int port = 47000;
@@ -54,8 +55,19 @@ void handle_client(int sock)
 	close(sock);
 }
 
+void load_flag()
+{
+	std::ifstream flag_file("flag.txt");
+	flag_file >> flag;
+	flag_file.close();
+
+	std::cout << "[INFO] Loaded flag " << std::quoted(flag) << std::endl;
+}
+
 int main()
 {
+	load_flag();
+
 	int sock = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
 
 	if (sock == -1) {
