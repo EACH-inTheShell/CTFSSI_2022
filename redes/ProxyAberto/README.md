@@ -12,7 +12,9 @@ Dentro dessa maquina tem um servidor interno (`http`) com a flag.
 
 ## Resolução proposta
 
-Utilizar o proxy para acessar a o servidor interno e ler a flag em `http://localhost:80/flag.txt`.
+Utilizar o proxy para acessar o servidor interno e ler a flag em `http://localhost:80/flag.txt`.
+
+Com Curl fica assim: `curl -x http://server:3128 http://localhost/flag.txt`.
 
 ## Como rodar
 
