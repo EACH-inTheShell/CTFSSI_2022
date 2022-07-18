@@ -1,4 +1,4 @@
-# Calculadora preguiçosa
+# Calculadora Preguiçosa
 
 Responsável: Fukuda
 
