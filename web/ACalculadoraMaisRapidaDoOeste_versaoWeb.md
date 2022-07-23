@@ -4,7 +4,7 @@ Responsável: Nakata
 
 ## Desafio
 
-Continua com a ideia de um desafio de cálculos que devem ser desenvolvidos num tempo ridiculamente curto, mas agora é um web server.
+Continua com a ideia de um desafio de cálculos que devem ser desenvolvidos num tempo ridiculamente curto, mas agora é um server http.
 
 Proposta de duas partes:
 - Parte 1: javascript: A flag e a lógica estão no próprio front-end.
