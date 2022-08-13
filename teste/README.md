@@ -4,7 +4,7 @@ Responsável: Nakata
 
 ## Desafio
 
-Imprime algumas coisas na conexão tcp.
+Imprime algumas coisas na conexão tcp. Note que a aplicação suporta múltiplas seções.
 
 ## Como rodar
 
