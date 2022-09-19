@@ -8,6 +8,8 @@ RUN strip calc
 FROM ubuntu:latest
 EXPOSE 47002
 RUN apt update && apt install -y socat python3
-COPY --from=builder /tmp/calc /calc
-COPY --from=builder /tmp/flag.txt /flag.txt
-ENTRYPOINT socat tcp-listen:47002,fork exec:/calc
+RUN useradd -m eits
+WORKDIR /home/eits
+COPY --from=builder /tmp/calc /opt/calc
+COPY --from=builder /tmp/flag.txt /home/eits/flag.txt
+ENTRYPOINT socat tcp-listen:47002,fork exec:/opt/calc,su=eits

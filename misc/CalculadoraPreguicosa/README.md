@@ -10,7 +10,7 @@ Criar um programa que utilize um interpretador python (como um `eval("<user_inpu
 
 ## Resolução proposta
 
-Para explorar basta injetar comandos python para ler a flag.
+Para explorar basta injetar comandos python para ler a flag como esse: `exec("import os;os.system(\"cat flag.txt\")")`.
 
 ## Como rodar
 
