@@ -26,7 +26,6 @@ Brainstorm, pode ser que não seja utilizado...
 - GDB com sessão remota aberta
 - XSS
 - SSRF
-- LFI
 - Alguma possibilidade de RCE em algum tipo de programa distribuído (`distcc`, `barrier`)?
 - Desafios de exploração de binário (stack overrun, format string, heap overrun, integer overflow)
 
@@ -40,3 +39,4 @@ Evitem reutilizar portas ;)
 | Um Ladino nos Fios              | 47000 |
 | Calculadora Preguiçosa          | 47002 |
 | Uma Cabeça Cheia de Informações | 47100 |
+| Tudo Nada Filtrado              | 47200 |
