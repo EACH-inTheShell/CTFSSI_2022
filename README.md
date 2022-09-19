@@ -35,8 +35,9 @@ Brainstorm, pode ser que não seja utilizado...
 
 Evitem reutilizar portas ;)
 
-| Desafio                | Porta |
-| ------------------     | ----- |
-| Proxy Aberto           | 3128  |
-| Um Ladino nos Fios     | 47000 |
-| Calculadora Preguiçosa | 47002 |
+| Desafio                         | Porta |
+| ------------------------------- | ----- |
+| Proxy Aberto                    | 3128  |
+| Um Ladino nos Fios              | 47000 |
+| Calculadora Preguiçosa          | 47002 |
+| Uma Cabeça Cheia de Informações | 47100 |

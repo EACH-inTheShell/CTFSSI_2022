@@ -4,7 +4,7 @@ all:
 	docker build -t umacabecacheiadeinformacoes .
 
 start: all
-	docker run -d --rm -it -p 47100:8080 --name umacabecacheiadeinformacoes umacabecacheiadeinformacoes
+	docker run -d --rm -it -p 47100:80 --name umacabecacheiadeinformacoes umacabecacheiadeinformacoes
 
 stop:
 	docker stop umacabecacheiadeinformacoes
