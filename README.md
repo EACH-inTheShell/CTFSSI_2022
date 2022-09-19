@@ -19,7 +19,6 @@ Brainstorm, pode ser que não seja utilizado...
 - Link de bibliotecas dinâmicas
 - Modificar/implementar algum programa (tipo o `scp`) para subverter a lógica de algum programa externo
 - Escape de container
-- Core dump de programa com segredo em memória
 - Forense com memory dump de um computador
 - Analise de pacotes com Wireshark
 - Zip slip
