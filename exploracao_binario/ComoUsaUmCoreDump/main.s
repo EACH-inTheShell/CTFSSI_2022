@@ -9,8 +9,7 @@ _start:
 	xor %rbx, %rbx
 
 	loop:
-	mov %rbx, %rax
-	mov %rsp, %rdi
+	mov %rsp, %rsi
 	call read
 	inc %rbx
 	cmp $0, %rax
@@ -19,15 +18,11 @@ _start:
 	jmp abort
 
 read:
-	mov %rdi, %rsi
-
 	mov $2, %rcx
 	mul %rcx
-	add %rax, %rsi
+	add %rbx, %rsi
 
-	inc %rsi
-	movl $0, (%rsi)
-	dec %rsi
+	movl $0, (%rsi,1)
 
 	mov $0, %rax
 	mov $1, %rdx
