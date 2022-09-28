@@ -39,4 +39,5 @@ Evitem reutilizar portas ;)
 | Um Ladino nos Fios              | 47000 |
 | Calculadora Preguiçosa          | 47002 |
 | Uma Cabeça Cheia de Informações | 47100 |
+| Zip Simbólico                   | 47101 |
 | Tudo Nada Filtrado              | 47200 |
