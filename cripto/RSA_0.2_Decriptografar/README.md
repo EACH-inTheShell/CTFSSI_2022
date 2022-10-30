@@ -1,4 +1,4 @@
-# Introdução à criptografia (Não vale pontos)
+# Introdução à criptografia
 
 Responsável: Tsu
 

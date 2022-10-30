@@ -1,4 +1,4 @@
-# Introdução à criptografia (Não vale pontos)
+# Small difference attack
 
 Responsável: Tsu
 
