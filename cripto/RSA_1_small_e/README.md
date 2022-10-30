@@ -1,4 +1,4 @@
-# Primos pequenos
+# Expoente pequeno
 
 Responsável: Tsu
 
