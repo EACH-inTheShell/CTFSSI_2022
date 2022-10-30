@@ -15,8 +15,11 @@ Descobrindo que a diferença entre os valores p e q é pequena, é possível usa
 Desenvolvendo a equação:
 
 $$n = pq$$
+
 $$n = \(\frac{p+q}{2} + \frac{p-q}{2}\)\(\frac{p+q}{2} - \frac{p-q}{2}\)$$
+
 $$n = \(\frac{p+q}{2}\)^{2} - \(\frac{p-q}{2}\)^{2}$$
+
 $$n + \(\frac{p-q}{2}\)^{2} = \(\frac{p+q}{2}\)^{2}$$
 
 Dada a equação acima é possível ver que a soma do valor $n$ com um quadrado perfeito resulta em outro quadrado perfeito. Sabendo que a diferença entre $p$ e $q$ é pequena, nós sabemos que $\(\frac{p-q}{2}\)^{2}$ é pequeno também!
