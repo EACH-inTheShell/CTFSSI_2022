@@ -15,5 +15,6 @@ if __name__ == '__main__':
     texto_plano_int: int = bytes_to_long(texto_plano.encode('UTF-8'))
     print(f'{texto_plano_int=}')
 
-    texto_cifrado: int = rsa(texto_plano_int, e, n)
-    print(f'{texto_cifrado=}')
+    texto_cifrado_int: int = rsa(texto_plano_int, e, n)
+    print(f'{texto_cifrado_int=}')
+    print(f'Flag: EITS{{{texto_cifrado_int}}}')

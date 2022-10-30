@@ -6,11 +6,11 @@ Tags: `rsa`, `python3`
 
 ## Desafio
 
-Dar uma introdução na criptografia RSA (Como criptografar uma mensagem).
+Já aprendemos a criptografar, como podemos fazer a decriptografia? Consegue ajudar a Jiji?
 
 ## Resolução proposta
 
-Ler um pouco sobre o RSA na internet e fazer o algoritmo de decriptografia.
+Ler um pouco sobre o RSA na internet e calcular o valor do parâmetro `d`.
 
 ## Como rodar
 

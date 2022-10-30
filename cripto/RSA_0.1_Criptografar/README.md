@@ -6,11 +6,13 @@ Tags: `rsa`, `python3`
 
 ## Desafio
 
-Dar uma introdução na criptografia RSA (Como criptografar uma mensagem).
+Jiji está aprendendo um pouco sobre a criptografia RSA. Você consegue criptografar essa mensagem?
+
+**OBS**: Para rodar o programa *challenge.py* será necessário ter a biblioteca *pycryptodome*. O programa foi testado com o python na versão 3.10.8
 
 ## Resolução proposta
 
-Ler um pouco sobre o RSA na internet e fazer o algoritmo de decriptografia.
+Ler um pouco sobre o RSA na internet e fazer o algoritmo de criptografia.
 
 ## Como rodar
 

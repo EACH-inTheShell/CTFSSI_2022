@@ -18,3 +18,4 @@ if __name__ == '__main__':
 
     texto_cifrado_int: int = rsa(texto_plano_int, e, n)
     print(f'{texto_cifrado_int=}')
+    print(f'Flag: EITS{{{texto_cifrado_int}}}')
