@@ -19,7 +19,7 @@ if __name__ == '__main__':
     n_values = []
     e_values = []
     d_values = []
-    texto_cifrado_int_values = []
+    texto_criptografado_int_values = []
 
     for f in arquivos:
         for line in f.readlines():
@@ -33,8 +33,8 @@ if __name__ == '__main__':
                 e_values.append(re.sub('\n', '', re.sub('#', '', line)))
             if re.match('.*d: int = .*', line):
                 d_values.append(re.sub('\n', '', re.sub('#', '', line)))
-            if re.match('.*texto_cifrado_int: int = .*', line):
-                texto_cifrado_int_values.append(re.sub('\n', '', re.sub('#', '', line)))
+            if re.match('.*texto_criptografado_int: int = .*', line):
+                texto_criptografado_int_values.append(re.sub('\n', '', re.sub('#', '', line)))
         f.close()
 
     assert all_equal(q_values)
@@ -42,11 +42,11 @@ if __name__ == '__main__':
     assert all_equal(n_values)
     assert all_equal(e_values)
     assert all_equal(d_values)
-    assert all_equal(texto_cifrado_int_values)
+    assert all_equal(texto_criptografado_int_values)
 
     print(q_values)
     print(p_values)
     print(n_values)
     print(e_values)
     print(d_values)
-    print(texto_cifrado_int_values)
+    print(texto_criptografado_int_values)

@@ -1,4 +1,4 @@
-# Expoente pequeno
+# RSA - Expoente pequeno
 
 Responsável: Tsu
 

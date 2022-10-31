@@ -1,4 +1,4 @@
-# Introdução à criptografia
+# Introdução ao RSA
 
 Responsável: Tsu
 

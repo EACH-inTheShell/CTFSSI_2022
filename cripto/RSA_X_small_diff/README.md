@@ -1,4 +1,4 @@
-# Small difference attack
+# RSA - Small difference attack
 
 Responsável: Tsu
 

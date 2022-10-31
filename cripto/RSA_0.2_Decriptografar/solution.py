@@ -18,10 +18,10 @@ if __name__ == '__main__':
     texto_plano_int: int = bytes_to_long(texto_plano.encode('UTF-8'))
     print(f'{texto_plano_int=}')
 
-    texto_cifrado_int: int = rsa(texto_plano_int, e, n)
-    print(f'{texto_cifrado_int=}')
+    texto_criptografado_int: int = rsa(texto_plano_int, e, n)
+    print(f'{texto_criptografado_int=}')
 
-    texto_decriptografado: str = long_to_bytes(rsa(texto_cifrado_int, d, n)).decode('UTF-8')
+    texto_decriptografado: str = long_to_bytes(rsa(texto_criptografado_int, d, n)).decode('UTF-8')
 
     assert texto_decriptografado == texto_plano
 
