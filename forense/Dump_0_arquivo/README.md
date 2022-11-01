@@ -8,15 +8,21 @@ Tags: `volatility`
 
 Conseguimos invadir o computador de Jiji e pegar um dump de memória, o que Jiji esconde em seu computador?
 
-Link para o dump:
+Link para o dump: https://drive.google.com/file/d/152E6ePtriehTVk3bDr_PcrEmyjC4JRFV/view?usp=sharing
 
-Sha1sum:
+Sha1sum: 775e7bb33f185fd967dca020b41560c41d4876de
 
 Para verificar o hash do arquivo no Linux rode:
 
+```sh
+sha1sum jiji_mem.raw
+```
 
 Para verificar o hash do arquivo no Windows rode:
 
+```sh
+CertUtil -hashfile mem.raw sha1
+```
 
 Qual é o profile utilizado para analizar esse dump de memória no volatility 2?
 
