@@ -31,20 +31,42 @@ python3 volatility3-1.0.0/vol.py -f jiji_mem.raw windows.pslist.PsList
 Para ver o dump dos processos abertos usando o volatility 2:
 
 ```sh
-volatility -f mem.raw --profile Win81U1x64 pslist
+volatility -f jiji_mem.raw --profile Win81U1x64 pslist
 ```
+
+![imagem](./pslist.png)
 
 Então, é preciso extrair o processo `notepad.exe`:
 
 ```sh
-python3 volatility3-1.0.0/vol.py -f jiji_mem.raw windows.dumpfiles.DumpFiles --pid <pid>
+python3 volatility3-1.0.0/vol.py -f jiji_mem.raw windows.dumpfiles.DumpFiles --pid 2560
 
 # OU
 
-volatility -f mem.raw --profile Win81U1x64 memdump --dump-dir=./ -p <pid>
+volatility -f mem.raw --profile Win81U1x64 memdump --dump-dir=./ -p 2560
 ```
 
-![imagem](AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA)
+Para conseguir ler o conteúdo do `notepad.exe` é preciso usar uma codificação específica:
+
+![imagem](./strings.png)
+
+Sabendo que Jiji estava estudando computação forense, é possível filtrar a palavra `forense`:
+
+![imagem](./grep.png)
+
+A saída não contém o texto inteiro:
+
+![imagem](./output.png)
+
+Então rodamos o `grep` novamente com a flag `-a`:
+
+![imagem](./grep2.png)
+
+Então ao analisar a saída, encontramos a flag:
+
+![imagem](./output2.png)
+
+![imagem](FLAG.png)
 
 ## Como rodar
 
