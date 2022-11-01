@@ -10,6 +10,10 @@ O dump de memória pode ser encontrado no desafio `Dump - Arquivo`
 
 Jiji estava escondendo um segredo na sua anotação de computação forense...
 
+## Dicas
+
+Já tentou executar? - 5 pontos
+
 ## Resolução proposta
 
 A segunda flag é a flag que está no processo aberto do `notepad.exe`

@@ -22,16 +22,16 @@ Para abrir o dump de memória é necessário usar o volatility.
 
 Esse [site](https://book.hacktricks.xyz/generic-methodologies-and-resources/basic-forensic-methodology/memory-dump-analysis/volatility-cheatsheet) é um bom lugar para referências.
 
-Para ver o dump das variáveis de ambiente usando o volatility 3:
+Para ver colocar o dump das variáveis de ambiente no arquivo `saída.txt` (volatility 3):
 
 ```sh
-python3 volatility3-1.0.0/vol.py -f jiji_mem.raw windows.envar
+python3 volatility3-1.0.0/vol.py -f jiji_mem.raw windows.envar > saída.txt
 ```
 
-Para ver o dump das variáveis de ambiente usando o volatility 2:
+Para ver colocar o dump das variáveis de ambiente no arquivo `saída.txt` (volatility 2):
 
 ```sh
-volatility -f mem.raw --profile Win81U1x64 envars
+volatility -f jiji_mem.raw --profile Win81U1x64 envars > saída.txt
 ```
 
 Então é só analisar a saída e procurar pela flag. No exemplo abaixo eu procurei pelas aparições do caractere `_` que geralmente aparece nas flags:

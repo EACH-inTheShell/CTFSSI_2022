@@ -17,12 +17,26 @@ Para verificar o hash do arquivo no Linux rode:
 
 Para verificar o hash do arquivo no Windows rode:
 
-**Dica**: O computador da Jiji é um windows de 64-bits (Essa informação vai ser importante)
 
+Qual é o profile utilizado para analizar esse dump de memória no volatility 2?
+
+**Dica**: O computador da Jiji é um windows de 64-bits (Essa informação vai ser importante)
 
 ## Resolução proposta
 
-Não tem resolução, é apenas para mostrar o link de download do arquivo e o seu hash
+Rodar o comando:
+
+```sh
+volatility --info | grep -i profile
+```
+
+![imagem](./volatility_profiles.png)
+
+Procurando pelos profiles é possível achar os profiles:
+
+![imagem](./FLAG.png)
+
+O desafio aceita qualquer resposta que começa com Win8 e termina com x64
 
 ## Como criar uma imagem
 
