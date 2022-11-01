@@ -9,12 +9,15 @@ Tags: `volatility`
 Conseguimos invadir o computador de Jiji e pegar um dump de memória, o que Jiji esconde em seu computador?
 
 Link para o dump:
+
 Sha1sum:
 
 Para verificar o hash do arquivo no Linux rode:
 
 
 Para verificar o hash do arquivo no Windows rode:
+
+**Dica**: O computador da Jiji é um windows de 64-bits (Essa informação vai ser importante)
 
 
 ## Resolução proposta
