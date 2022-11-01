@@ -24,6 +24,12 @@ Para verificar o hash do arquivo no Windows rode:
 
 Não tem resolução, é apenas para mostrar o link de download do arquivo e o seu hash
 
+## Como criar uma imagem
+
+Usar o [winpmem](https://github.com/Velocidex/WinPmem) para criar a imagem.
+
+Não obtive muito sucesso criando dumps do windows 10, mas o windows 8.1 deu certinho
+
 ## Como rodar
 
 O código fonte vai estar disponibilizado no site do `ctfd/ctfd`.
