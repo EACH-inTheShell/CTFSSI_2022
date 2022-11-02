@@ -12,4 +12,6 @@ if __name__ == '__main__':
 
     assert flag == xor(xor(flag, chave[97:97 + len(flag)]), chave[97:97 + len(flag)])
     texto_criptografado = xor(flag, chave)
+    with open('./flag.txt', 'wb') as f:
+        f.write(texto_criptografado)
     print(texto_criptografado)

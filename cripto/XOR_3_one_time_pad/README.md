@@ -16,7 +16,7 @@ nc
 
 ## Resolução proposta
 
-A primeira parte seria adaptar o programa da operação xor para funcionar em arquivos binários.
+
 
 ## Como rodar
 

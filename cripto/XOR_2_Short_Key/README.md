@@ -6,13 +6,13 @@ Tags: `xor`, `python3`
 
 ## Desafio
 
-Jiji deixou para trás um arquivo criptografado, mas dessa vez ela está usando uma chave maior.
+Jiji deixou para trás um arquivo criptografado, mas dessa vez Jiji está usando uma chave maior.
 
 O que é esse texto criptografado?
 
 ## Resolução proposta
 
-A primeira parte seria adaptar o programa da operação xor para funcionar em arquivos binários.
+
 
 ## Como rodar
 
