@@ -12,7 +12,7 @@ Jiji estava escondendo um segredo na sua anotação de computação forense...
 
 ## Dicas
 
-Já tentou executar? - 5 pontos
+Encontrou o arquivo? Já tentou executar o arquivo? - 5 pontos
 
 ## Resolução proposta
 
