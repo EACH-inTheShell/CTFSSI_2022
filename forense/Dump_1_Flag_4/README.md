@@ -8,7 +8,9 @@ Tags: `volatility`
 
 O dump de memória pode ser encontrado no desafio `Dump - Arquivo`
 
-Jiji estava escondendo um segredo na sua anotação de computação forense...
+Jiji estava rodando um executável quando pegamos o dump de memória.
+
+Você consegue recuperar o executável e seu conteúdo?
 
 ## Dicas
 
