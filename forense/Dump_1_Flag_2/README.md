@@ -10,6 +10,8 @@ O dump de memória pode ser encontrado no desafio `Dump - Arquivo`
 
 Tenho uma impressão que Jiji estava escondendo um segredo na sua anotação de computação forense...
 
+**OBS**: Quando for ler o conteúdo do processo o comando `strings --encoding l` pode ser útil
+
 ## Dicas
 
 Jiji gosta de fazer suas anotações no `notepad.exe` - 5 pontos
