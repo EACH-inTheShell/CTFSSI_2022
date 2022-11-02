@@ -22,29 +22,29 @@ Para abrir o dump de memória é necessário usar o volatility.
 
 Esse [site](https://book.hacktricks.xyz/generic-methodologies-and-resources/basic-forensic-methodology/memory-dump-analysis/volatility-cheatsheet) é um bom lugar para referências.
 
-Para ver o dump dos processos abertos usando o volatility 3:
-
-```sh
-python3 volatility3-1.0.0/vol.py -f jiji_mem.raw windows.pslist.PsList
-```
-
-Para ver o dump dos processos abertos usando o volatility 2:
+Para ver os processos abertos (volatility 2):
 
 ```sh
 volatility -f mem.raw --profile Win81U1x64 pslist
 ```
 
-Então, é preciso extrair o processo `notepad.exe`:
+![pslist](./vol_pslist.png)
+
+No meio dessa lista podemos ver um processo diferente:
+
+![pslist](./vol_quebra_cabec.png)
+
+Então, é preciso extrair o executável `Quebra_cabeca_`:
 
 ```sh
-python3 volatility3-1.0.0/vol.py -f jiji_mem.raw windows.dumpfiles.DumpFiles --pid <pid>
-
-# OU
-
-volatility -f mem.raw --profile Win81U1x64 memdump --dump-dir=./ -p <pid>
+volatility -f mem.raw --profile Win81U1x64 procdump --dump-dir=./ -p 2232
 ```
 
-![imagem](AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA)
+![pslist](./vol_proc_dump.png)
+
+E então é só executar o `Quebra_cabeca_Jiji.exe`
+
+![flag](./FLAG.png)
 
 ## Como rodar
 
