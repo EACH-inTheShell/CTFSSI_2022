@@ -1,0 +1,19 @@
+Pegasus (spyware)
+
+------------------------------------------------------------
+
+As referências deste artigo necessitam de formatação. Por favor, utilize fontes apropriadas contendo título, autor e data para que o verbete permaneça verificável. (Novembro de 2021)
+
+Pegasus é um spyware desenvolvido pela empresa de armas cibernéticas israelense NSO Group , que pode ser instalado secretamente em telemóveis e outros dispositivos com os sistemas Android e iOs.
+
+De acordo com o Washington Post e outras fontes de mídia, o Pegasus não só permite a monitorização das teclas de todas as comunicações de um telefone (textos, e-mails, pesquisas na web), mas também permite o seguimento de chamadas telefónicas e localização, ao mesmo tempo que permite ao Grupo NSO sequestrar tanto o microfone do telemóvel como a câmara, transformando-o assim num dispositivo de vigilância constante.
+
+A NSO Group afirmou que fornece "aos governos autorizados esta tecnologia que os ajuda a combater o terrorismo e o crime", publicou secções de contratos que exigem aos clientes que utilizem os seus produtos apenas para investigações criminais e de segurança nacional e declarou que tem uma abordagem pioneira na indústria em relação aos direitos humanos.
+
+Em 23 de agosto de 2020, de acordo com informações obtidas pelo jornal israelense Haaretz, o Grupo NSO foi acusado de vender o spyware Pegasus por centenas de milhões de dólares para o Brasil, Emirados Árabes Unidos e outros Estados do Golfo, com o objetivo de vigilância estatal contra ativistas sociais, dissidentes, jornalistas e líderes políticos de nações rivais.
+
+O programa de investigação da Al Jazeera The Tip of the Iceberg, Spy partners, em 20 de dezembro de 2020, mostrou imagens exclusivas sobre "Pegasus", e sua penetração nos telefones de profissionais da mídia e ativistas, que segundo as pesquisas do Citizen Lab um laboratório interdisciplinar sediado no Canadá. foram usados pela Arábia Saudita e pelos Emirados Árabes Unidos para espionar seus oponentes.
+
+------------------------------------------------------------
+
+CH4v3_peQu3n4_dEm415_3497d09f

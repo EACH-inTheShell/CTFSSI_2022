@@ -1,10 +1,12 @@
-def xor(entrada: str, chave: int) -> str:
-    # Use a chave para criptografar a entrada usando a operacao XOR
-    return ''.join(list(chr(chave ^ ord(letra)) for letra in entrada))
+def xor(entrada: bytes, chave: int) -> bytes:
+    output: bytearray = bytearray()
+    for c in entrada:
+        output.append(c ^ chave)
+    return output
 
 if __name__ == '__main__':
-    entrada: str = 'UseAOperacaoXORAqui'
+    entrada: bytes = b'UseAOperacaoXORAqui'
     chave: int = 32
 
     texto_criptografado = xor(entrada, chave)
-    print(f'Flag: EITS{{{texto_criptografado}}}')
+    print(f'Flag: EITS{{{texto_criptografado.decode()}}}')

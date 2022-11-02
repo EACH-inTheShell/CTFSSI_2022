@@ -1,6 +1,8 @@
 def xor(entrada: bytes, chave: int) -> bytes:
-    # Use a chave para criptografar a entrada usando a operacao XOR
-    return b''.join(list((chave ^ letra).to_bytes(1, byteorder='little') for letra in entrada))
+    output: bytearray = bytearray()
+    for c in entrada:
+        output.append(c ^ chave)
+    return output
 
 if __name__ == '__main__':
     f = open('./hecker_da_jiji.png', 'rb')
