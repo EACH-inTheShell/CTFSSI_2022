@@ -6,11 +6,11 @@ Tags: `esteganografia`, `stegoveritas`
 
 ## Desafio
 
-Jiji tirou a foto de alguns pássaros sobrevoando a EACH... Mas o que é aquilo ali? - 5 pts
+Jiji tirou a foto de alguns pássaros sobrevoando a EACH... Mas o que é aquilo ali?
 
 ## Dicas
 
-Se você não consegue ver, talvez **FILTRAR** algumas coisas da imagem.
+Se você não consegue ver, talvez **FILTRAR** algumas coisas da imagem. - 5 pts
 
 ## Resolução proposta
 

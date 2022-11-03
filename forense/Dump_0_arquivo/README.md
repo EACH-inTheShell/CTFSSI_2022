@@ -26,7 +26,7 @@ CertUtil -hashfile mem.raw sha1
 
 Qual é o profile utilizado para analizar esse dump de memória no volatility 2?
 
-**Dica**: O computador da Jiji é um windows de 64-bits (Essa informação vai ser importante)
+**Dica**: O computador da Jiji tem um windows de 64-bits
 
 ## Resolução proposta
 

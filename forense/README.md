@@ -7,5 +7,8 @@ Desafios:
 - [Dump 2](./Dump_1_Flag_2)
 - [Dump 3](./Dump_1_Flag_3)
 - [Dump 4](./Dump_1_Flag_4)
+- [Esteganografia - 1 - Passaro](./Esteganografia_passaro)
+- [Esteganografia - 2 - Metadados](./Esteganografia_metadados)
+- [Esteganografia - 3 - Recursão](./Esteganografia_recursão)
 - [É mágico](./Its_magic_1)
 - [File System](./file_system)
