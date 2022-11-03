@@ -7,4 +7,5 @@ Desafios:
 - [Dump 2](./Dump_1_Flag_2)
 - [Dump 3](./Dump_1_Flag_3)
 - [Dump 4](./Dump_1_Flag_4)
+- [É mágico](./Its_magic_1)
 - [File System](./file_system)
