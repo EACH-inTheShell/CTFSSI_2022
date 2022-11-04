@@ -12,4 +12,5 @@ Desafios:
 - [XOR 3](./XOR_3_one_time_pad)
 - [HASH 0](./HASH_0)
 - [HASH 1](./HASH_1_sal)
+- [HASH 2](./HASH_2_combination)
 
