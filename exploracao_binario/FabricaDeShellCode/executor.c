@@ -19,6 +19,7 @@ int main()
 {
 	char buffer[SHELLCODE_BUFFER_SIZE] = {0};
 
+	setvbuf(stdout, NULL, _IONBF, 0);
 	printf("Toma, um presente: %p\nBoa sorte!\n", (void *)win);
 	read(0, buffer, SHELLCODE_BUFFER_SIZE);
 

@@ -5,7 +5,7 @@ COPY ./ /tmp/
 RUN gcc -o calc calc.c
 RUN strip calc
 
-FROM ubuntu:latest
+FROM ubuntu:22.10
 EXPOSE 47002
 RUN apt update && apt install -y socat python3
 RUN useradd -m eits

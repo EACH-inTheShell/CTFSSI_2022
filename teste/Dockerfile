@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:22.10
 EXPOSE 1234
 COPY teste.py /teste.py
 

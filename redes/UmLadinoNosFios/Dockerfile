@@ -5,7 +5,7 @@ COPY ./ /tmp/
 RUN cmake -B build/ && cmake --build build/
 RUN strip build/server
 
-FROM ubuntu:latest
+FROM ubuntu:22.10
 EXPOSE 47000
 COPY --from=builder /tmp/build/server /server
 COPY --from=builder /tmp/map.txt /map.txt

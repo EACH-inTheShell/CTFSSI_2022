@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:22.10
 
 EXPOSE 47300
 WORKDIR /opt
