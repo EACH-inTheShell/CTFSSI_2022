@@ -1,4 +1,4 @@
-# Para Onde Retornar
+# Um Passo Para Tras, Dois Para Frente
 
 Responsável: Fukuda
 
@@ -6,11 +6,11 @@ Tags: `stack overflow`
 
 ## Desafio
 
-Sobrescreva a variável de retorno para chamar a função win.
+ROP :)
 
 ## Resolução proposta
 
-Descubra quantos bytes ate a variável, então construa um payload para mostrar a flag.
+...
 
 ## Como rodar
 
