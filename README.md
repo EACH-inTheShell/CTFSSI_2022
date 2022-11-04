@@ -33,13 +33,17 @@ Brainstorm, pode ser que não seja utilizado...
 
 Evitem reutilizar portas ;)
 
-| Desafio                         | Porta |
-| ------------------------------- | ----- |
-| Proxy Aberto                    | 3128  |
-| Um Ladino nos Fios              | 47000 |
-| Calculadora Preguiçosa          | 47002 |
-| Uma Cabeça Cheia de Informações | 47100 |
-| Zip Simbólico                   | 47101 |
-| Tudo Nada Filtrado              | 47200 |
-| ShellCode para Iniciantes       | 47300 |
-| Fabrica de ShellCode            | 47301 |
+| Desafio                             | Porta |
+| ----------------------------------- | ----- |
+| Proxy Aberto                        | 3128  |
+| Um Ladino nos Fios                  | 47000 |
+| Calculadora Preguiçosa              | 47002 |
+| Uma Cabeça Cheia de Informações     | 47100 |
+| Zip Simbólico                       | 47101 |
+| Tudo Nada Filtrado                  | 47200 |
+| ShellCode para Iniciantes           | 47300 |
+| Fabrica de ShellCode                | 47301 |
+| Overflow Para Bebes                 | 47302 |
+| Agora Você no Controle              | 47303 |
+| Para Onde Voltar                    | 47304 |
+| Um Passo Para Tras Dois Para Frente | 47305 |
