@@ -6,7 +6,7 @@ Tags: `rsa`, `python3`
 
 ## Desafio
 
-Já aprendemos a criptografar, como podemos fazer a decriptografia? Consegue ajudar a Jiji?
+Já aprendemos a criptografar, como podemos fazer a decriptografia? Consegue ajudar Jiji?
 
 ## Resolução proposta
 

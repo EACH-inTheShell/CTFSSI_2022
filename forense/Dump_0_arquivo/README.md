@@ -33,14 +33,10 @@ Qual é o profile utilizado para analizar esse dump de memória no volatility 2?
 Rodar o comando:
 
 ```sh
-volatility --info | grep -i profile
+volatility -f mem.ra
 ```
 
 ![imagem](./volatility_profiles.png)
-
-Procurando pelos profiles é possível achar os profiles:
-
-![imagem](./FLAG.png)
 
 O desafio aceita qualquer resposta que começa com Win8 e termina com x64
 
