@@ -41,3 +41,5 @@ Evitem reutilizar portas ;)
 | Uma Cabeça Cheia de Informações | 47100 |
 | Zip Simbólico                   | 47101 |
 | Tudo Nada Filtrado              | 47200 |
+| ShellCode para Iniciantes       | 47300 |
+| Fabrica de ShellCode            | 47301 |
