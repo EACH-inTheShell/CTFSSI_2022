@@ -15,4 +15,4 @@ stop:
 restart: stop start
 
 stack: stack.c
-	gcc -fno-stack-protector -o $@ $^
+	gcc -m32 -fno-stack-protector -o $@ $^

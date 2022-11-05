@@ -3,7 +3,7 @@ FROM ubuntu:22.10
 EXPOSE 47305
 WORKDIR /opt
 
-RUN apt update && apt install -y socat
+RUN apt update && apt install -y socat gcc-multilib
 
 COPY ./flag.txt /opt/flag.txt
 COPY ./stack /opt/stack
