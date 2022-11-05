@@ -1,3 +1,5 @@
+#!/usr/local/bin/python
+
 def xor(entrada: bytes, chave: list[int]) -> bytes:
     from itertools import cycle
     output: bytearray = bytearray()
