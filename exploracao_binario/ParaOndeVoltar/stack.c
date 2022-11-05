@@ -2,13 +2,13 @@
 
 void win()
 {
-	char flag[40];
+	char flag[40] = {0};
 
 	FILE *f = fopen("flag.txt", "r");
 	fread(flag, 1, 40, f);
 	fclose(f);
 
-	printf("Parabens, aqui esta a sua flag: %s\n", flag);
+	puts(flag);
 }
 
 void vulneravel()
