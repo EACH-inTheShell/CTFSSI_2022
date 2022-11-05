@@ -6,9 +6,9 @@ Tags: `hash`, `hashcat`
 
 ## Desafio
 
-Sabemos que Jiji tem uma combinação de 2 das palavras dentro do arquivo `rockyou-10000.txt`, mas não sabemos quais...
+Sabemos que Jiji usou uma combinação de 2 palavras dentro do arquivo `rockyou-10000.txt` para formar sua senha, mas não sabemos quais...
 
-Vamos descobrir a senha de Jiji?
+Qual a senha de Jiji?
 
 **OBS**: O hash não é mais o MD5
 

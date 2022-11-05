@@ -1,6 +1,4 @@
-from Crypto.Util.number import bytes_to_long, long_to_bytes, getStrongPrime
-from math import gcd
-from random import randint
+from Crypto.Util.number import long_to_bytes
 
 def rsa(m: int, e: int, n: int) -> int:
     return pow(m, e, n)
@@ -24,4 +22,3 @@ if __name__ == '__main__':
     texto_decriptografado: str = long_to_bytes(texto_decriptografado_int).decode('UTF-8')
     print(f'{texto_decriptografado=}')
     print(f'Flag: EITS{{{texto_decriptografado}}}')
-
