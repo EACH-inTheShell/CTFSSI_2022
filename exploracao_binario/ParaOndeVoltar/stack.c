@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-char flag[40] = {0};
-
 void win()
 {
+	char flag[40];
+
 	FILE *f = fopen("flag.txt", "r");
 	fread(flag, 1, 40, f);
 	fclose(f);
