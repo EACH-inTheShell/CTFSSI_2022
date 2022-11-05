@@ -4,7 +4,7 @@ char flag[40] = {0};
 
 void win()
 {
-	FILE* f = fopen("flag.txt", "r");
+	FILE *f = fopen("flag.txt", "r");
 	fread(flag, 1, 40, f);
 	fclose(f);
 
@@ -15,7 +15,7 @@ void vulneravel()
 {
 	char buffer[64] = {0};
 
-	printf("> ");
+	printf("Toma, para tu: %p\n> ", (void *)win);
 
 	gets(buffer);
 }
