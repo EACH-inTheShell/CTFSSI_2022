@@ -30,6 +30,8 @@ Descobrindo esse valor a equação se torna uma equação de segundo grau. Encon
 
 Então o valor $d$ é calculado e a mensagem decriptografada com o algoritmo RSA.
 
+Um exemplo da resolução pode ser encontrada dentro do arquivo `./assets/solve_equation.sage`
+
 ## Como rodar
 
 O código fonte vai estar disponibilizado no site do `ctfd/ctfd`.

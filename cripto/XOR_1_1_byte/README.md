@@ -16,6 +16,7 @@ Então, poderia fazer um brute force testando todos os valores de 0 até 255.
 
 Para não ter que usar a operação xor em todo arquivo, o participante poderia fazer a operação xor apenas no começo do arquivo. Já que foi revelado que o arquivo é um PNG, é possível saber qual é o número mágico do arquivo.
 
+O arquivo `./solution.py` contém um pequeno brute force de exemplo.
 
 ## Como rodar
 

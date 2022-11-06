@@ -16,6 +16,8 @@ Vendo que o valor do parâmetro `e` escolhido é muito pequeno, quando elevado o
 
 texto\_cifrado\_int $^{1/e}$
 
+Um exemplo de código em sage pode ser encontrado no arquivo `./assets/solve_exp.sage`
+
 ## Como rodar
 
 O código fonte vai estar disponibilizado no site do `ctfd/ctfd`.
