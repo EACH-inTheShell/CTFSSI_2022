@@ -1,4 +1,4 @@
-# XOR - Bad One Time Pad
+# XOR - Bad One Time Pad (Não foi liberado)
 
 Responsável: Tsu
 
