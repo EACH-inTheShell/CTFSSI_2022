@@ -27,7 +27,7 @@ python3 volatility3-1.0.0/vol.py -f jiji_mem.raw windows.hashdump
 Para ver as senhas dos usuários (volatility 2):
 
 ```sh
-volatility -f mem.raw --profile Win81U1x64 pslist
+volatility -f mem.raw --profile Win81U1x64 hashdump
 ```
 
 ![imagem](FLAG.png)
