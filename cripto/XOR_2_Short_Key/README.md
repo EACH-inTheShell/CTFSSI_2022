@@ -20,7 +20,7 @@ Usando a ferramenta `XOR Brute Force` no arquivo `texto_criptografado.txt`, é p
 
 ![padrão](./PATTERN.png)
 
-Com esses padrões é possível chutar que partes do arquivo continham o mesmo texto repitido dentro dele, calculando tamanho das repetições é possível saber que o tamanho da flag é de 10 caracteres.
+Com esses padrões é possível chutar que partes do arquivo continham o mesmo texto repitido dentro dele, calculando tamanho das repetições é possível saber que o tamanho da chave é de 10 caracteres.
 
 Outra forma de resolver seria usar um site como XOR [craker](https://wiremask.eu/tools/xor-cracker/)
 
