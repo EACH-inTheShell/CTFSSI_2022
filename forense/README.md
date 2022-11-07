@@ -10,5 +10,4 @@ Desafios:
 - [Esteganografia - 1 - Passaro](./Esteganografia_1_passaro)
 - [Esteganografia - 2 - Metadados](./Esteganografia_2_metadados)
 - [Esteganografia - 3 - Recursão](./Esteganografia_3_recursão)
-- [É mágico](./Its_magic_1)
 - [File System](./file_system)
