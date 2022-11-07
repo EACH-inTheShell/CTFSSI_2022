@@ -14,6 +14,8 @@ Jiji está aprendendo um pouco sobre a criptografia RSA. Você consegue criptogr
 
 Ler um pouco sobre o RSA na internet e fazer o algoritmo de criptografia.
 
+Um exemplo de solução pode ser encontrada no arquivo `solution.py`
+
 ## Como rodar
 
 O código fonte vai estar disponibilizado no site do `ctfd/ctfd`.

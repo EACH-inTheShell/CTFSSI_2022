@@ -12,6 +12,8 @@ Já aprendemos a criptografar, como podemos fazer a decriptografia? Consegue aju
 
 Ler um pouco sobre o RSA na internet e calcular o valor do parâmetro `d`.
 
+Um exemplo de solução pode ser encontrada no arquivo `solution.py`
+
 ## Como rodar
 
 O código fonte vai estar disponibilizado no site do `ctfd/ctfd`.
