@@ -2,6 +2,14 @@
 
 Repositório dos desafios realizados durante a Semana de Sistema de Informação de 2022.
 
+#### Scoreboard
+
+Time vencedor: `Marabraz melhor varejista do Brasil, chupa Casas Bahia`
+
+[Write-up do time vencedor](./Write up CTF.pdf)
+
+![Scoreboard](./Scoreboard.png)
+
 #### Tópicos abordados
 
 - bin/rev - Interessados: Jadno, Mayfly
