@@ -6,7 +6,7 @@ Repositório dos desafios realizados durante a Semana de Sistema de Informação
 
 Time vencedor: `Marabraz melhor varejista do Brasil, chupa Casas Bahia`
 
-[Write-up do time vencedor](./Write up CTF.pdf)
+[Write-up do time vencedor](./Write&#32;up&#32;CTF.pdf)
 
 ![Scoreboard](./Scoreboard.png)
 
