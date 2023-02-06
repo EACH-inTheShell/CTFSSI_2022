@@ -2,6 +2,16 @@
 
 Repositório dos desafios realizados durante a Semana de Sistema de Informação de 2022.
 
+#### Rodar localmente
+
+Requisitos: docker-compose
+
+Para rodar a imagem do CTFd localmente:
+
+```
+docker-compose up
+```
+
 #### Scoreboard
 
 Time vencedor: `Marabraz melhor varejista do Brasil, chupa Casas Bahia`
