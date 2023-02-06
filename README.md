@@ -12,6 +12,9 @@ Para rodar a imagem do CTFd localmente:
 docker-compose up
 ```
 
+Usuário: admin
+Senha: senha
+
 #### Scoreboard
 
 Time vencedor: `Marabraz melhor varejista do Brasil, chupa Casas Bahia`
