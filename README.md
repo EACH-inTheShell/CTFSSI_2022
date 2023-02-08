@@ -12,6 +12,8 @@ Para rodar a imagem do CTFd localmente:
 docker-compose up
 ```
 
+Acessar o site em `http://localhost:8000`.
+
 Usuário: admin
 Senha: senha
 
