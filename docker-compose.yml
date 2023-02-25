@@ -3,7 +3,6 @@ version: '2'
 services:
   ctfd:
     image: doombringerazurai/ctfssi-ctfd:2022
-    build: .
     user: root
     restart: always
     ports:
